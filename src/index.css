@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Pacifico&display=swap');
+
+body
+{
+    background-color: black!important;
+    color: white;
+}
+
+.masking
+{
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:white;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    letter-spacing:3px;
+    font-size:56px;
+    line-height:72px;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive!important;
+    font-weight: 400;
+    
+  }
+  @media only screen and (max-width:576px) {
+    .masking
+    {
+        font-size:37px;  
+        letter-spacing:1px; 
+        line-height:48px;
+    }
+  }
+  
+  
