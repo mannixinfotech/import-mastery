@@ -21,7 +21,7 @@ const Header = () => {
         style={{ opacity: "1", willChange: "auto" }}
       >
         <div>
-          <a href="/" className="text-xl font-bold uppercase">
+          <a href="/" className="text-xl font-bold ">
            
           Mannix Import Mastery
           </a>
@@ -29,19 +29,19 @@ const Header = () => {
         <div className="hidden md:block">
 
         <ul className="flex gap-4">
-        <li>
-    <a href="/contact" className="inline-block text-sm py-2 px-3 uppercase">
+        <li className="hover:text-orange-600 ">
+    <a href="/about" className="inline-block text-lg py-2 px-3 ">
       About
     </a>
   </li>
-            <li>
-    <a href="/contact" className="inline-block text-sm py-2 px-3 uppercase">
+            <li className="hover:text-orange-600 ">
+    <a href="/portfolio" className="inline-block text-lg py-2 px-3 ">
       Portfolio
     </a>
   </li>
   
-  <li>
-    <a href="/contact" className="inline-block text-sm py-2 px-3 uppercase">
+  <li className="hover:text-orange-600 ">
+    <a href="/contact" className="inline-block text-lg py-2 px-3 ">
       Contact
     </a>
   </li>
@@ -87,19 +87,23 @@ const Header = () => {
       {menuOpen && (
         <div className="md:hidden">
          <ul className="flex flex-col gap-4 mt-4">
-            <li>
+            <li className="hover:text-orange-600 ">
               <div>
-                <a href="/" className="inline-block text-sm py-2 px-3 uppercase">
+                <a href="/about" className="inline-block text-sm py-2 px-3 ">
                   About
                 </a>
               </div>
             </li>
-            <li>
-             
+            <li className="hover:text-orange-600">
+              <div >
+                <a href="/portfolio" className="inline-block text-sm py-2 px-3 ">
+                  Porfolio
+                </a>
+              </div>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <div>
-                <a href="/" className="inline-block text-sm py-2 px-3 uppercase">
+                <a href="/contact" className="inline-block text-sm py-2 px-3 ">
                   Contact
                 </a>
               </div>
