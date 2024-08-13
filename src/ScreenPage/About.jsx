@@ -183,7 +183,7 @@ const About = () => {
       </div>
       <div>
         <p className="text-2xl font-semibold text-center">Global Expansion</p>
-        <p className="text-lg text-center p-12">Going international provides businesses access to a world of opportunities. SGIPL, very early on, started utilizing these opportunities to create vital business links in different sectors. Today, we are ready to share this network of partners with businesses that aim to stimulate their global growth.</p>
+        <p className="text-lg text-center p-12">Going international provides businesses access to a world of opportunities. Mannix Import Mastery, very early on, started utilizing these opportunities to create vital business links in different sectors. Today, we are ready to share this network of partners with businesses that aim to stimulate their global growth.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-7 p-5 text-black">
             <div className="bg-white p-4 border-r-4 border-orange-600 border-l-4 border-t-4 rounded-tl-3xl rounded-tr-3xl hover:scale-95 hover:ease-in duration-200">
                
