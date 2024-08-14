@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="w-full md:w-1/3 p-5">
           <h3 className="text-2xl font-normal mb-4">Contact Info</h3>
           <p className="text-lg text-gray-400">
-            <i className="fas fa-phone mr-2"></i> +91 XXX-XXX-XXXX
+            <i className="fas fa-phone mr-2"></i> +91 76004 83333
           </p>
           <p className="text-lg text-gray-400">
             <i className="fas fa-envelope mr-2"></i> importmastery@gmail.com
